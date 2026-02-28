@@ -55,7 +55,7 @@ Playing a card consists of these ordered steps:
 
 1. **Decision** — Choose the card, its orientation (face-up/face-down), and its destination line.
 2. **Commit** — The card leaves the hand and enters the commit queue for its destination.
-3. **Land** — The card enters the stack (potentially covering another card and triggering "When this card would be covered" effects).
+3. **Land** — The card enters the stack. If this would cover another card, OnCover effects ("When this card would be covered") can interrupt the Land step and must be completely resolved before proceeding.
 4. **Middle command activation** — The card's middle text resolves.
 
 The "After a card is played" window only opens after **all four steps** are complete. A card's middle text activating is considered part of the play action, not separate from it.
