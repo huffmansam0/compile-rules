@@ -1,3 +1,6 @@
+---
+title: Compile Codex
+---
 # Compile Codex: Supplemental Clarifications
 
 ---
