@@ -117,10 +117,6 @@ Stacks only exist when they have cards in them. You **cannot** use Mirror 2 to s
 
 Ice 3's End trigger ("End: If this card is covered...") activates during the End phase like all End triggers. The **condition** (being covered) is only checked when you choose to resolve Ice 3's trigger, **not** when triggers are collected. This means if another End trigger (e.g., Courage 3's shift) covers Ice 3 before you process Ice 3's End trigger, the condition will be satisfied.
 
-### Courage 3 — Draw Before Shift
-
-Courage 3's "Draw 1 card and you may shift this card" processes the draw **before** the shift.
-
 ---
 
 ## Miscellaneous
