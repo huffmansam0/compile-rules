@@ -85,6 +85,10 @@ Unity 1's middle command can delete all cards in a line and flip a protocol, mim
 - Unity 1 **cannot recompile** — if the protocol is already compiled, the deletion still happens but no additional benefit (like drawing from opponent's deck) occurs.
 - Unity 1's effect **does not trigger control component actions** (no optional protocol rearrangement, no returning control to neutral). It is a card effect, not a compile action.
 
+### Luck 2 — Empty Deck Draws Nothing
+
+Luck 2's effect does **not** trigger a reshuffle if your deck is empty. Because it is not a standard draw action, it cannot shuffle the trash into a new deck. If the deck is empty when Luck 2's effect resolves, you simply draw 0 cards.
+
 ### Luck 3 — "State a Protocol"
 
 When Luck 3 says "State a protocol," you can name **any protocol that exists in the game**, including ones not present in the current match. This effectively allows you to intentionally miss.
