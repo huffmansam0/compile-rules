@@ -1,7 +1,13 @@
 ---
-title: Compile Codex
+title: COMPILE Supplemental Clarifications
 ---
-# Compile Codex: Supplemental Clarifications
+# COMPILE: Supplemental Clarifications
+
+## Contents
+
+- [General Rules Clarifications](#general-rules-clarifications)
+- [Timing and Resolution](#timing-and-resolution)
+- [Card Clarifications and Rulings](#card-clarifications-and-rulings): [Gravity 0](#gravity-0) · [Ice 3](#ice-3) · [Luck 2](#luck-2) · [Luck 3](#luck-3) · [Mirror 2](#mirror-2) · [Mirror 4](#mirror-4) · [Plague 1](#plague-1) · [Time 0](#time-0) · [Time 2](#time-2) · [Unity 1](#unity-1) · [War 2](#war-2) · [Water 4](#water-4)
 
 ---
 
@@ -68,67 +74,55 @@ For example: If it's your turn and you flip your opponent's Death 2, your oppone
 
 ---
 
-## Committed Cards
-
-### Gravity 0's Played Cards Land Under Gravity 0
-
-When Gravity 0's middle command plays cards from the top of the deck, those played cards enter the committed queue like any other played card. The special rule is that instead of landing on top of the stack, they get placed **directly under Gravity 0** in the stack.
-
----
-
 ## Card Clarifications and Rulings
+
+### Gravity 0
+
+- Cards played by Gravity 0's middle command enter the committed queue like any other played card, but land **directly under Gravity 0** in the stack instead of on top.
+
+### Ice 3
+
+- The "if this card is covered" condition is checked **when you choose to resolve** Ice 3's End trigger, not when triggers are collected. If another End trigger (e.g., Courage 3's shift) covers Ice 3 first, the condition will be satisfied.
+
+### Luck 2
+
+- Empty deck draws nothing. Luck 2's effect is not a standard draw action and does **not** trigger a reshuffle.
+
+### Luck 3
+
+- You can name **any protocol that exists in the game**, including ones not in the current match. This allows you to intentionally miss.
+
+### Mirror 2
+
+- Cannot swap with an empty line. Stacks only exist when they have cards in them.
+- Committed cards stay committed to their **original destination** during a swap. Mirror 2 swaps the cards in the stacks, not the stacks themselves.
+
+### Mirror 4
+
+- Refreshing counts as drawing and will trigger Mirror 4.
+
+### Plague 1
+
+- Triggers on **any** discard action: clearing cache, discarding from deck (Clarity 1, Luck 2, Luck 3, Luck 4), etc.
+
+### Time 0
+
+- Shuffling happens **even if your trash is empty** — the deck still gets randomized. If both deck and trash are empty, nothing happens (game state can't change).
+
+### Time 2
+
+- Shuffling a deck of 0 or 1 cards does **not** change the game state, so Time 2 does not trigger. Shuffling 2+ cards **does** trigger Time 2, even though the order might not have changed.
+- Time 2 does **not** interrupt a draw that caused the shuffle. The full draw resolves first, then Time 2's trigger activates. "After you draw cards" and "After you shuffle" triggers happen at the same time after the draw completes.
 
 ### Unity 1
 
-Unity 1's middle command can delete all cards in a line and flip a protocol, mimicking a compile. However:
+- Unity 1's effect is **not a compile action**. It does not trigger control component actions (no rearrangement, no returning control to neutral).
+- Unity 1 **cannot recompile** — if the protocol is already compiled, the deletion still happens but no additional benefit occurs.
 
-- Unity 1 **cannot recompile** — if the protocol is already compiled, the deletion still happens but no additional benefit (like drawing from opponent's deck) occurs.
-- Unity 1's effect **does not trigger control component actions** (no optional protocol rearrangement, no returning control to neutral). It is a card effect, not a compile action.
+### War 2
 
-### Luck 2 — Empty Deck Draws Nothing
+- War 2's "After your opponent compiles" does **not** trigger if War 2 is in the compiled line. War 2 is deleted as part of the compile and is in the trash before the "After compile" window opens.
 
-Luck 2's effect does **not** trigger a reshuffle if your deck is empty. Because it is not a standard draw action, it cannot shuffle the trash into a new deck. If the deck is empty when Luck 2's effect resolves, you simply draw 0 cards.
+### Water 4
 
-### Luck 3 — "State a Protocol"
-
-When Luck 3 says "State a protocol," you can name **any protocol that exists in the game**, including ones not present in the current match. This effectively allows you to intentionally miss.
-
-### Time 0 — Shuffle with Empty Trash
-
-Time 0's text instructs you to shuffle your trash into your deck. This shuffle happens **even if your trash is empty** — the deck still gets shuffled (randomized). However, if both your deck and trash are empty, the game state can't change, so nothing happens and Time 2's "After you shuffle" would not trigger.
-
-### Time 2 — Shuffle Doesn't Interrupt Drawing
-
-Time 2's "After you shuffle your deck" trigger does **not** interrupt a draw that caused the shuffle. The full sequence is:
-
-- If a draw begins and the deck is empty: shuffle the deck, draw the cards, **then** Time 2's trigger activates.
-- If there are some cards but not enough to complete the draw: draw what you can, shuffle the deck, complete the draw, **then** Time 2's trigger activates.
-- In both cases, "After you draw cards" and "After you shuffle" triggers happen at the same time after the draw fully resolves.
-
-### War 2 — Bottom Effect and Compiling
-
-War 2's bottom text ("After your opponent compiles:") does **not** trigger if War 2 is in the compiled line. The "After compile" window occurs only after: the control component is used, all deletions finish, and the protocol is flipped. Since War 2 would be deleted as part of the compile, it is in the trash by the time this window opens.
-
-### Mirror 2 — Swapping with Committed Cards
-
-When Mirror 2's effect is triggered during a shift (e.g., the shift uncovered Mirror 2), any cards that are currently committed to a stack stay committed to their **original destination**. Mirror 2 swaps the cards that are in the stacks, not the stacks themselves. A committed card's destination doesn't change because of a swap.
-
-### Mirror 2 — Cannot Swap with Empty Lines
-
-Stacks only exist when they have cards in them. You **cannot** use Mirror 2 to swap with an empty line.
-
-### Ice 3 — End Trigger and Covering Condition
-
-Ice 3's End trigger ("End: If this card is covered...") activates during the End phase like all End triggers. The **condition** (being covered) is only checked when you choose to resolve Ice 3's trigger, **not** when triggers are collected. This means if another End trigger (e.g., Courage 3's shift) covers Ice 3 before you process Ice 3's End trigger, the condition will be satisfied.
-
----
-
-## Miscellaneous
-
-### Clearing Cache Counts as Discarding
-
-Discarding cards during the Check Cache phase (clearing cache) counts as a discard action and will trigger relevant effects (e.g., Plague 1's top command: "After your opponent discards cards: draw 1 card").
-
-### Refreshing Is Drawing (for Trigger Purposes)
-
-Refreshing draws cards from the top of the deck, and this counts as drawing for the purposes of triggers (e.g., Mirror 4).
+- Returning itself is a legal play. 
