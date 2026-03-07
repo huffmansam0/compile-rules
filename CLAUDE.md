@@ -16,6 +16,7 @@ This is a GitHub Pages site hosting supplemental rules clarifications for the ca
   - `COMPILE Cards/` — Card image files (JPGs) for all Main 1 protocols.
   - `MN01_Rulesheet.pdf`, `MN02_Rulesheet.pdf` — Official printed rulesheets.
   - `The_Compile_Codex-1.pdf` — The Compile Codex PDF (official errata/clarifications document).
+  - `parse-discord.py` — Script to convert Discord HTML exports to clean Markdown. Usage: `python claude-context/parse-discord.py <input.html> <output.md>`. Use this instead of manually reading the HTML.
   - Discord export HTML — Raw export from the `#rules-questions` channel, the primary source for new rulings.
 
 ## Development
