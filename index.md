@@ -3,6 +3,10 @@ title: COMPILE Supplemental Clarifications
 ---
 # COMPILE: Supplemental Clarifications
 
+*Last updated: March 7, 2026*
+
+For official errata and rulings, see the [COMPILE Codex](https://boardgamegeek.com/filepage/291919/compile-codex).
+
 ## Contents
 
 - [General Rules Clarifications](#general-rules-clarifications)
@@ -15,7 +19,8 @@ title: COMPILE Supplemental Clarifications
 | [Apathy 2](#apathy-2) | [Clarity 1](#clarity-1) | [Darkness 2](#darkness-2) | [Death 2](#death-2) | [Death 3](#death-3) | [Diversity 0](#diversity-0) | [Fire 4](#fire-4) | [Gravity 0](#gravity-0) |
 | [Gravity 2](#gravity-2) | [Ice 3](#ice-3) | [Life 0](#life-0) | [Life 1](#life-1) | [Light 0](#light-0) | [Luck 2](#luck-2) | [Luck 3](#luck-3) | [Metal 3](#metal-3) |
 | [Metal 6](#metal-6) | [Mirror 2](#mirror-2) | [Mirror 4](#mirror-4) | [Plague 0](#plague-0) | [Plague 1](#plague-1) | [Plague 2](#plague-2) | [Plague 3](#plague-3) | [Plague 4](#plague-4) |
-| [Speed 1](#speed-1) | [Speed 3](#speed-3) | [Spirit 0](#spirit-0) | [Time 0](#time-0) | [Time 2](#time-2) | [Unity 1](#unity-1) | [War 2](#war-2) | [Water 4](#water-4) |
+| [Speed 1](#speed-1) | [Speed 3](#speed-3) | [Spirit 0](#spirit-0) | [Spirit 3](#spirit-3) | [Time 0](#time-0) | [Time 2](#time-2) | [Unity 1](#unity-1) | [War 2](#war-2) |
+| [Water 4](#water-4) | | | | | | | |
 
 ---
 
@@ -293,6 +298,10 @@ For example: If it's your turn and you flip your opponent's Death 2, your oppone
 
 - If you have 5 or more cards in hand, the refresh fizzles. The "Draw 1 card" is a separate sentence and **still resolves** regardless.
 - The refresh and "Draw 1 card" are two separate draw actions. Spirit 3 triggers **separately** for each.
+
+### Spirit 3
+
+- No, Spirit 3 does not go infinite. If Spirit 3 is shifted off a card whose middle command draws cards, Spirit 3 is committed when that trigger fires, and therefore does not see the cards drawn. You can read more about committed cards in the [COMPILE Codex](https://boardgamegeek.com/filepage/291919/compile-codex).
 
 ### Time 0
 
