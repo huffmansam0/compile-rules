@@ -3,7 +3,7 @@ title: COMPILE Supplemental Clarifications
 ---
 # COMPILE: Supplemental Clarifications
 
-*Last updated: March 7, 2026*
+*Last updated: March 15, 2026*
 
 For official errata and rulings, see the [COMPILE Codex](https://boardgamegeek.com/filepage/291919/compile-codex).
 
