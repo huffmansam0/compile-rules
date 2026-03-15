@@ -33,3 +33,4 @@ To preview locally: `bundle exec jekyll serve` (requires Ruby + Jekyll).
 - The document uses Markdown with YAML front matter (`title: COMPILE Supplemental Clarifications`).
 - Sections are separated by horizontal rules (`---`).
 - Authoritative sources for rulings: Michael Yang (game designer), the Codex errata, and community members "makario" and "impalsi" in Discord.
+- When committing and pushing, always update the "Last updated" date at the top of `index.md` to the current date.
