@@ -7,7 +7,7 @@ title: COMPILE Supplemental Clarifications
 
 For official errata and rulings, see the [COMPILE Codex](https://boardgamegeek.com/filepage/291919/compile-codex).
 
-Found an error, have a suggestion, or just want to say hi? [Leave feedback on GitHub.](https://github.com/huffmansam0/compile-rules/issues)
+Found an error, have a suggestion, or just want to say hi? [Leave feedback on GitHub](https://github.com/huffmansam0/compile-rules/issues) or email me at huffmansam0@gmail.com.
 
 ## Contents
 
